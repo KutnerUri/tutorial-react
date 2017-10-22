@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 
 /**
  * @description styled button component
- * @param {function} click - invoked function onclick
- * @param {string} text - text that appears in the button
  *
  *
  */
