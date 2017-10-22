@@ -1,0 +1,25 @@
+{
+  "name": "export-button",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha --compilers js:babel-core/register ./test/*-spec.js",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babel": "6.3.13",
+    "babel-core": "6.1.18",
+    "babel-preset-es2015": "6.3.13",
+    "chai": "^4.1.2",
+    "enzyme": "^3.1.0",
+    "mocha": "2.3.4"
+  }
+}
