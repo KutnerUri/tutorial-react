@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 
 /**
- * @description styled button component
+ * @description Styled button component
  * 
  * @example
  * <Button text="Example button text" buttonColor="red" buttonHoverColor="green" />
@@ -49,23 +49,23 @@ class Button extends Component {
 
 Button.propTypes = {
   /**
-   * @property {propTypes.string} text - The text to be shown in the Button.
+   * @property {propTypes.string} text - Button text.
    */
   text: PropTypes.string,
   /**
-   * @property {propTypes.string} buttonHoverColor - The text to be shown in the Button.
+   * @property {propTypes.string} buttonHoverColor - Button color to be shown on hover.
    */
   buttonHoverColor: PropTypes.string,
   /**
-   * @property {propTypes.string} buttonColor- The text to be shown in the Button.
+   * @property {propTypes.string} buttonColor- Button default background color.
    */
   buttonColor: PropTypes.string
 }
 
 Button.defaultProps = {
   text: 'Example Button',
-  buttonColor: "rgb(119, 148, 162)",
-  buttonHoverColor: "rgba(161, 188, 202, 0.34)"
+  buttonColor: "rgba(161, 188, 202, 0.34)",
+  buttonHoverColor: "rgb(119, 148, 162)"
 }
 
 export default Button;

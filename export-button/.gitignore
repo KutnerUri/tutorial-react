@@ -19,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Bit
+.bit
+.bit.map.json
+bit.json
+dist
+yarn.lock

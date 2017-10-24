@@ -1,5 +1,5 @@
 {
-  "name": "export-button",
+  "name": "import-button",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
