@@ -9,18 +9,13 @@ test('Button shows example text', () => {
 
   expect(button.text()).toEqual('Example Button');
 
-  button.find('button').simulate('click');
-
-  expect(button.text()).toEqual('Button clicked');
 });
 
 test('Button changes text on click', () => {
     const button = shallow(
       <Button />
     );
-  
-    // expect(button.text()).toEqual('Example Button');
-  
+    
     button.find('button').simulate('click');
   
     expect(button.text()).toEqual('Button clicked');
