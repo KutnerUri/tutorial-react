@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 
 /**
+ * @render react
+ * @name Button
  * @description Styled button component
- * 
  * @example
  * <Button text="Example button text" buttonColor="red" buttonHoverColor="green" />
  */
